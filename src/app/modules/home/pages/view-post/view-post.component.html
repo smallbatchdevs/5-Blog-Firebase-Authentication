@@ -1,0 +1,9 @@
+<div *ngIf="post$ | async as post">
+  <div class="centerText">
+    <h1>{{post.title}}</h1>
+  </div>
+  <div class="bodyText">{{post.body}}</div>
+  <div class="centerText">
+    <a routerLink="/">Home</a>
+  </div>
+</div>

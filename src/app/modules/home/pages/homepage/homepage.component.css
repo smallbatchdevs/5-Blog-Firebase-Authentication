@@ -1,0 +1,101 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0;
+}
+
+* {
+  font-family: "Nunito", serif;
+}
+
+.centerText, .editBtn, .readBtn, .newPostBtn {
+  text-align: center;
+  width: 100%;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.floatRight {
+  float: right;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+  margin: 8px 0;
+}
+
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+}
+
+.header {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.newPostBtn {
+  color: #744210;
+  background-color: #ECC94B;
+  border: solid 1px #D69E2E;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.readBtn {
+  color: white;
+  background-color: #4299E1;
+  border: solid 1px #3182CE;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.editBtn {
+  color: #1A202C;
+  background-color: #E2E8F0;
+  border: solid 1px #CBD5E0;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.extraMargin {
+  margin: 90px 25%;
+}
+
+/*# sourceMappingURL=homepage.component.css.map */

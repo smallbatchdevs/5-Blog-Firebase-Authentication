@@ -1,0 +1,16 @@
+<div class="centered" *ngIf="form$ | async as form">
+  <form class="half-width" [formGroup]="form">
+    <div class="centerText">
+      <h1>Title</h1>
+      <input class="half-width" type="text" formControlName="title">
+    </div>
+    <div class="centerText">
+      <h1>Body</h1>
+      <textarea [rows]="25" class="full-width" formControlName="body"></textarea>
+    </div>
+    <div>
+      <div class="saveButton" (click)="onSubmit(form.value)">Save</div>
+      <div class="homeButton" routerLink="/">Home</div>
+    </div>
+  </form>
+</div>
